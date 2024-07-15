@@ -1,43 +1,94 @@
-# Exotic Odering system
+# Exotic Ordering System
 
-This is a system that simplifies taking orders from customers and it must automatically how the chefs which oders are peeding and the chefs onces they done with the order they can change the state of the order to ready and also the system will be able to calutate the orders and give estimated totals 
+This is a system that simplifies taking orders from customers and it must automatically show the chefs which orders are pending. Once the chefs are done with the order, they can change the state of the order to 'ready.' The system will also be able to calculate the orders and give estimated totals.
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Problem Statement](#Problem_Statements)
-3. [Requirements](#Requirements)
-4. [features](#features)
+2. [Problem Statement](#problem-statement)
+3. [Requirements](#requirements)
+4. [Features](#features)
 5. [Installation](#installation)
-
+6. [User Stories](#user-stories)
 
 ## Introduction
 
-This documentation is intended for developers and users of the system to give them a guide to how to use the platform and also to contribute on it. Exoting ordering system  is ment to be used by entrepreneurs who are selling products regularly. Its a system used to track oders,stock,products and sales of products. The system should help in effeciency and productivity of the business
+This documentation is intended for developers and users of the system to give them a guide on how to use the platform and also to contribute to it. The Exotic Ordering System is meant to be used by entrepreneurs who are selling products regularly. It's a system used to track orders, stock, products, and sales of products. The system should help in the efficiency and productivity of the business.
+
 ## Problem Statement
 
-As an entrepreneur of sells food as a vendor at events, I always face challengies and taking orders from customers and manage those orders in time. Also sometimes i missplace the orders or confuse the orders. The chef always complain that i dont communicate the oders properly it get confusing with the chefs. The chefs also sometimes put wrong ingrediates to the order.
+As an entrepreneur who sells food as a vendor at events, I always face challenges in taking orders from customers and managing those orders in time. Sometimes I misplace the orders or confuse them. The chef always complains that I don't communicate the orders properly, leading to confusion. The chefs also sometimes put the wrong ingredients in the order.
 
-Another challege is that managing revenues and sales is difficult. I sometimes dont see profit or commisions made after selling at the end of the event. its very difficult to identify key eareas where i can improve financially
+Another challenge is that managing revenues and sales is difficult. Sometimes I don't see the profit or commissions made after selling at the end of the event. It's very difficult to identify key areas where I can improve financially.
 
-Also i need a visual representation of profiy margis and committions per periods 
+I also need a visual representation of profit margins and commissions over different periods.
 
 ## Requirements
 
- This secttions will try to break down the projects and provide business solutions to the problem statement 
+This section will break down the project and provide business solutions to the problem statement.
 
-1. [Proposed Solutions](#ProposedSolution)
-2. [User Stories](#User_Stories)
-3. [Use Case Diagrams](#User_Stories)
-3. [Models/Tables/class diagrams](#Models)
-4. [Activity Diagrams](#Activity_Diagrams)
+1. [Requirements Gathering](#requirements-gathering)
+2. [User Stories](#user-stories)
+3. [Use Case Diagrams](#use-case-diagrams)
+4. [Models/Tables/Class Diagrams](#models)
+5. [Activity Diagrams](#activity-diagrams)
 
+### Requirements Gathering
+
+###### Purpose of the Application
+- This application is meant to be used for taking orders from customers and it must send the request to the kitchen. The chef should approve the order and once they are done, they must update the system to indicate that the food is ready.
+
+###### Target Audience
+- Food Vendors
+
+###### Features and Functionality
+- User Registration (Authentication)
+- View Menu List
+- Order List
+- Change Status of the Order
+- View Inventory Details
+
+## User Stories
+
+#### User Registration and Authentication
+1. **As a user, I want to be able to create an account so that I can log in to the system and use its features.**
+2. **As a user, I want to log in and log out securely so that my account and data are protected.**
+
+#### Viewing and Managing Menu
+3. **As a user, I want to view the list of available menu items so that I can place an order.**
+4. **As an admin, I want to add, update, or remove menu items so that the menu stays current.**
+
+#### Placing and Managing Orders
+5. **As a customer, I want to place an order for one or more items from the menu so that I can get the food I want.**
+6. **As a customer, I want to receive a confirmation of my order so that I know it has been received.**
+7. **As a chef, I want to view all pending orders so that I know what needs to be prepared.**
+8. **As a chef, I want to update the status of an order to 'ready' once it is prepared so that the customer is notified.**
+
+#### Inventory Management
+9. **As an admin, I want to view the inventory details so that I can keep track of stock levels.**
+10. **As an admin, I want to update inventory levels when new stock is received or used so that the inventory data is accurate.**
+
+#### Order Tracking and Notification
+11. **As a user, I want to receive notifications about the status of my order so that I know when it is ready.**
+12. **As a chef, I want to receive notifications about new orders so that I can start preparing them promptly.**
+
+#### Financial Management
+13. **As an admin, I want to calculate the total amount of all orders so that I can track sales revenue.**
+14. **As an admin, I want to view reports on profits and commissions over different periods so that I can analyze the financial performance.**
+
+#### User Interface and Experience
+15. **As a user, I want an intuitive and user-friendly interface so that I can navigate the system easily.**
+16. **As an admin, I want a dashboard that provides a visual representation of key metrics (like order status, inventory levels, and financial performance) so that I can quickly assess the state of the business.**
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- User Registration and Authentication
+- Viewing and Managing Menu
+- Placing and Managing Orders
+- Inventory Management
+- Order Tracking and Notification
+- Financial Management
+- User Interface and Experience
 
 ## Installation
 

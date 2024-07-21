@@ -8,8 +8,9 @@ This is a system that simplifies taking orders from customers and it must automa
 2. [Problem Statement](#problem-statement)
 3. [Requirements](#requirements)
 4. [Features](#features)
-5. [Installation](#installation)
-6. [User Stories](#user-stories)
+5. [Dev Tools](#Dev_Tools)
+6. [Installation](#installation)
+7. [User Stories](#user-stories)
 
 ## Introduction
 
@@ -89,6 +90,23 @@ This section will break down the project and provide business solutions to the p
 - Order Tracking and Notification
 - Financial Management
 - User Interface and Experience
+
+## Development Tools
+#### Backend Tools
+
+- Node js
+- Typescript
+- Nodemoon
+- Prisma
+- PrismaClient
+- Prisma Studio
+- postgress
+- Docker
+
+ ### Frontend Tools
+ - React Native
+ - FireBase
+   
 
 ## Installation
 
